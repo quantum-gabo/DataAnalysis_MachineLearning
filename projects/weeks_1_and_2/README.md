@@ -17,14 +17,7 @@ This README provides **Week 2 plans**  for two joint research papers. Each team 
 ├── requirements.txt     # pinned deps (or environment.yml)
 └── README.md
 ```
-
----
-
-# Joint Paper 1  
-**Title:** *Decoding Collective Dynamics: Machine Learning Insights into Active Matter Simulations*  
-**Dataset:** **The Well Dataset** — simulations of active rod-like particles (81 time steps, 256×256 grid; scalar/vector/tensor fields; parameter sweeps for alignment & dipole strength; unified processing).
-
-## Week 1 Objective
+## Week 1-2 Objective
 Establish scientific framing, ensure a reproducible setup, and perform initial EDA to de-risk modeling in Weeks 2–6.
 
 ### For All Teams (Joint Prep)
@@ -36,7 +29,16 @@ Establish scientific framing, ensure a reproducible setup, and perform initial E
   - Reproducible env (Conda + `requirements.txt` or `environment.yml`).  
   - Load and inspect **The Well Dataset** (shapes, fields, params).  
   - Write a **dataset summary report** (variables, preprocessing, gaps).
+---
 
+# Joint Paper 1  
+**Title:** *Decoding Collective Dynamics: Machine Learning Insights into Active Matter Simulations*  
+**Dataset:** **The Well Dataset** — simulations of active rod-like particles (81 time steps, 256×256 grid; scalar/vector/tensor fields; parameter sweeps for alignment & dipole strength; unified processing).
+
+**References:**
+- The Well: a Large-Scale Collection of Diverse Physics Simulations for Machine Learning: https://arxiv.org/abs/2412.00568
+- Learning fast, accurate, and stable closures of a kinetic theory of an active fluid: https://www.sciencedirect.com/science/article/pii/S0021999124001189 
+- The Well GitHub repository: https://github.com/PolymathicAI/the_well/blob/master/docs/tutorials/dataset.ipynb
 ---
 
 ## Project 01 — Predicting Emergent Dynamics (Team 1: Jorge and Jhon)
@@ -108,9 +110,10 @@ Establish scientific framing, ensure a reproducible setup, and perform initial E
 **Title:** *From Images to Equations: Machine Learning Models of Zebrafish Morphogenesis from Brightfield Time-Lapse Data*  
 **Dataset:** Brightfield time-lapse videos of **150 zebrafish embryos** (normal, Nodal mutant, BMP mutant), **2–16 hpf**, 1 frame/5 min. Pre-segmented masks; preprocessing (resizing, normalization, alignment). Extracted descriptors (area, axes lengths, optical flow). *(Optional: Drosophila/Xenopus)*
 
-## Week 1 Objective
-Ground biological context, validate data quality, produce descriptor/latent EDA, and fix an initial modeling plan.
-- Review developmental stages (blastula → gastrula), expected morphology, mutant phenotypes.  
+**References:**
+- Review developmental stages (blastula → gastrula), expected morphology, mutant phenotypes:
+- Stages of embryonic development of the zebrafish: https://anatomypubs.onlinelibrary.wiley.com/doi/10.1002/aja.1002030302
+- EmbryoNet: using deep learning to link embryonic phenotypes to signaling pathways: https://www.nature.com/articles/s41592-023-01873-4
 
 
 ---
